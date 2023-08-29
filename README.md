@@ -1,2 +1,3 @@
-# exercise_recognition
-This is based on a Kaggle dataset Physical Exercise Recognition Dataset. The scope of the code is finding the best machine learning algorithm for this particular dataset
+# Exercise Recognition
+## Training set
+The training set can be found on this repository as a train.csv file. More information is available on Kaggle Physical Exercise Recognition Dataset thought it may be slightly altered (URL: https://www.kaggle.com/datasets/muhannadtuameh/exercise-recognition)
