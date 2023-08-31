@@ -7,4 +7,5 @@ The data are `x`,`y`,`z` coordinate in the 3d space on various key bodyparts as 
 ## Visualisation
 Most of the points, even if they are important for the indentification of the exersice, they clatter the plot making it imposible to tell possitions appart. Keeping only points 0, 11, 12, 13, 14, 15, 16, 23, 24, 25, 26, 27, 28 as seen on the plot above ensures better visualisation.
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/Data%20points%20plot.png)
+
 In this example with index 157 is clearly depicted and sit-up down possition.
