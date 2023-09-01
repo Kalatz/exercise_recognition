@@ -12,6 +12,12 @@ Most of the points, even if they are important for the indentification of the ex
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/Data%20points%20plot.png)
 
 In this example with index 157 is clearly depicted the sit-up down possition.
-![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/corrplot.png)
-![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/download.png)
+
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/nose%20point%20comparison.png)
+
+Understanding the data is vital for tackling the problem. The below plot below is the correlation matrix of all the data.
+
+![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/corrplot.png)
+
+![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/download.png)
+
