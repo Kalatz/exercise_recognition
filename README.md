@@ -11,4 +11,4 @@ Most of the points, even if they are important for the indentification of the ex
 
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/Data%20points%20plot.png)
 
-In this example with index 157 is clearly depicted and sit-up down possition.
+In this example with index 157 is clearly depicted the sit-up down possition.
