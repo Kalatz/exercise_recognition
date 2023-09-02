@@ -13,9 +13,11 @@ Most of the points, even if they are important for the indentification of the ex
 
 In this example with index 157 is clearly depicted the sit-up down possition.
 
+The plot below further helps us recognize the differnce between the noses points of two different movements.
+
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/nose%20point%20comparison.png)
 
-Understanding the data is vital for tackling the problem. The below plot below is the correlation matrix of all the data. All the different points are compered with each other and depicted in a colour coded symmetrical matrix. The three lighter coloured squares (stronger correlation) in the diagonal are the points in the head and shoulders, hands, pelvis and legs. 
+Understanding the data is vital for tackling the problem. The below plot below is the correlation matrix of all the data. All the different points are compered with each other and depicted in a colour coded symmetrical matrix. The three lighter coloured squares (stronger correlation) in the diagonal are the points in the head and shoulders, hands, pelvis and legs.
 
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/corrplot.png)
 
