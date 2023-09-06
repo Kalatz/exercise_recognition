@@ -21,5 +21,7 @@ Understanding the data is vital for tackling the problem. The below plot below i
 
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/corrplot.png)
 
+The frequency of examples in each class is displayed bellow. Unbalanced classes may cause issues when predicting the output.
+
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/download.png)
 
