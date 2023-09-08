@@ -25,4 +25,13 @@ Understanding the data is vital for tackling the problem. The plot below is the 
 The frequency of examples in each class is displayed below. Unbalanced classes may cause issues when predicting the output.
 
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/download.png)
+
  ## Preprocessing
+
+The unbalance dataset make this problem harder. One way to fix this using the Synthetic Minority Oversampling Technique (SMOTE) method from the library imbalanced learn.
+
+![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/test.png)
+
+This produces mostly good examples like the one below:
+
+![Alt text](
