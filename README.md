@@ -32,7 +32,7 @@ The unbalance dataset make this problem harder. One way to fix this using the Sy
 
 ![Alt text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/test.png)
 
-This produces mostly good examples like the one below:
+This produces mostly good examples like the ones below:
 
 ![alt-text-1](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png) ![alt-text-2](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png)
 
