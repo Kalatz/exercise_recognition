@@ -34,4 +34,5 @@ The unbalance dataset make this problem harder. One way to fix this using the Sy
 
 This produces mostly good examples like the one below:
 
-![Alt text](
+![alt-text-1](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png) ![alt-text-2](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png)
+
