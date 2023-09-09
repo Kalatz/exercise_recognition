@@ -1,4 +1,4 @@
-# Exercise Recognition1
+# Exercise Recognition
 ## Training set
 The training set can be found in this repository as a train.csv file. More information is available on Kaggle Physical Exercise Recognition Dataset, though it may be slightly altered.
 URL: https://www.kaggle.com/datasets/muhannadtuameh/exercise-recognition.
