@@ -36,3 +36,9 @@ This produces mostly good examples like the ones below:
 
 ![alt-text-1](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png) ![alt-text-2](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png)
 
+Also the standard scaller was used to scale the data.
+
+\[
+X_{\text{std}} = \frac{X - \mu}{\sigma}
+\]
+
