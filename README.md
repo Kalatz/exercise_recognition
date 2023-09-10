@@ -41,4 +41,12 @@ Also the standard scaller was used to scale the data.
 
 $$X_{\text{std}} = \frac{X - \mu}{\sigma}$$
 
+Where:
+\begin{align*}
+X_{\text{std}} & : \text{Standardized dataset} \\
+X & : \text{Original dataset} \\
+\mu & : \text{Mean of the original dataset} \\
+\sigma & : \text{Standard deviation of the original dataset}
+\end{align*}
+
 
