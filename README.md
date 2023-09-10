@@ -36,17 +36,16 @@ This produces mostly good examples like the ones below:
 
 ![alt-text-1](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png) ![alt-text-2](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/After%20smote.png)
 
-Also the standard scaller was used to scale the data.
+The StandardScaler was use on the data. In scikit-learn is a preprocessing technique used to standardize a dataset, which means scaling features to have a mean of 0 and a standard deviation of 1.
 
+Mathematically, it is represented as:
 
-$$X_{\text{std}} = \frac{X - \mu}{\sigma}$$
+\[
+X_{\text{std}} = \frac{X - \mu}{\sigma}
+\]
 
 Where:
-$$
-X_{\text{std}} & : \text{Standardized dataset} \\
-X & : \text{Original dataset} \\
-\mu & : \text{Mean of the original dataset} \\
-\sigma & : \text{Standard deviation of the original dataset}
-$$
+- \(X_{\text{std}}\) : Standardized dataset
+- \(X\) : Original dataset
 
 
