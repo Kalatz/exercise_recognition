@@ -38,6 +38,7 @@ This produces mostly good examples like the ones below:
 
 The StandardScaler was use on the data. In scikit-learn is a preprocessing technique used to standardize a dataset, which means scaling features to have a mean of 0 and a standard deviation of 1.
 
+
 Mathematically, it is represented as:
 
 \[
@@ -47,5 +48,7 @@ X_{\text{std}} = \frac{X - \mu}{\sigma}
 Where:
 - \(X_{\text{std}}\) : Standardized dataset
 - \(X\) : Original dataset
+- \(\mu\) : Mean of the original dataset
+- \(\sigma\) : Standard deviation of the original dataset
 
 
