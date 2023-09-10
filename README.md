@@ -51,4 +51,9 @@ Where:
 - $\mu$ : Mean of the original dataset
 - $\sigma$ : Standard deviation of the original dataset
 
+## Feature Selection
 
+Multiple way of feature selection were tested on this dataset and are leasted below:
+- Select K best (33 features)
+- LassoCV (91 featurs)
+- 
