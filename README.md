@@ -38,7 +38,7 @@ This produces mostly good examples like the ones below:
 
 Also the standard scaller was used to scale the data.
 
-\[
-X_{\text{std}} = \frac{X - \mu}{\sigma}
-\]
+
+$$X_{\text{std}} = \frac{X - \mu}{\sigma}$$
+
 
