@@ -55,5 +55,8 @@ Where:
 
 Multiple way of feature selection were tested on this dataset and are leasted below:
 - Select K best (33 features)
-- LassoCV (91 featurs)
-- 
+- LassoCV (91 features)
+- LassoCV (33 features fixed)
+- Logistic Regresion estimator (33 features)
+
+
