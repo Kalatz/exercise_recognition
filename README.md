@@ -59,4 +59,5 @@ Multiple way of feature selection were tested on this dataset and are leasted be
 - LassoCV (33 features fixed)
 - Logistic Regresion estimator (33 features)
 
+For more specific information about the features selected please head to the code.
 
