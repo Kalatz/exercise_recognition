@@ -40,7 +40,7 @@ The StandardScaler was use on the data. In scikit-learn is a preprocessing techn
 
 
 Mathematically, it is represented as:
-q
+
 
 $$X_{\text{std}} = \frac{X - \mu}{\sigma}$$
 
