@@ -72,3 +72,4 @@ n_simulations)`) and prints a report. This split the data randomly with the skle
 -`LogisticRegression(penalty='l2', solver='lbfgs',
 max_iter=10000,multi_class="multinomial" {,
 class_weight=’balanced’})` with <font color="red">0.83</font> accuracy
+<span style="color:blue">some *blue* text</span>.
