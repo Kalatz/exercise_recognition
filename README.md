@@ -53,11 +53,11 @@ Where:
 
 ## Feature Selection
 
-Multiple way of feature selection were tested on this dataset and are leasted below:
+Multiple methods of feature selection were tested on this dataset and are listed below:
 - Select K best (33 features)
 - LassoCV (91 features)
 - LassoCV (33 features fixed)
-- Logistic Regresion estimator (33 features)
+- Logistic Regression  estimator (33 features)
 - My Selected (39 features based on logic)
 
 For more specific information about the features selected please head to the code.
