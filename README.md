@@ -69,7 +69,7 @@ For more specific information about the features selected please head to the cod
 n_simulations)`) and prints a report. This split the data randomly with the sklearn libraty (`train_test_split()`) and then trains and tests the model. Finally, it prints a matrix with the precision, recall, f1 scores and accurasy with their standard deviation and mean values. This was made posible using a helper function (`def print_classification_results(X, y, clf, report, n_simulations, class_names)`)  and `precision_recall_fscore_support` and `accuracy _score` from `sklearn.metrics`
 - Monte Carlo Classification Report with Stratified Shuffle Split (`def monte_carlo_stratified_shuffle_split(X, y, clf, n_splits)`). Now the data are split using Stratified Shuffle Split (`StratifiedShuffleSplit(n_splits=n_splits, test_size=0.2)`) from the `sklearn.model_selection` model selection library.
 
-### Models and results:
+### Models and results: 
 - `LogisticRegression(penalty='l2', solver='lbfgs',
 max_iter=10000,multi_class="multinomial" {,
 class_weight=’balanced’})`
@@ -171,4 +171,10 @@ with **0.793** accuracy, achived on the SMOTE dataset
 ### Tree plot:
 ![image](https://github.com/Kalatz/exercise_recognition/assets/113215517/a752625e-bc06-47e4-833d-ac7ec3da59d1)
 
+## Conclusions
+The support vector machine model with rbf(`SVC(C = 1000, class_weight = None, gamma = 0.01, kernel = 'rbf')`) in which the hyper-parameters were selected with GridSearchCV. Trained with Train-test split  with the Stratified Shuffle Split method. More specifically, the artificial data set features from the SMOTE technique had the highest accuracy with the above model with **93%**.
 
+On the other hand, the quadratic discriminant analysis (QDA) model had the worst performance,
+especially on the datasets with all features, with an accuracy of 25%. This can
+be due to the fact that the number of parameters to be estimated increases exponentially with
+the number of features, which can lead to over-fitting and thus reduced accuracy.
