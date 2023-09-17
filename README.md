@@ -66,8 +66,8 @@ For more specific information about the features selected please head to the cod
 
 ### The functions use for easier classification:
 - Monte Carlo Classification(`def monte_carlo_classification_report(X, y, clf,
-n_simulations)`) and prints a report. This split the data randomly with the sklearn libraty (`train_test_split()`) and then trains and tests the model. Finally, it prints a matrix with the precision, recall, f1 scores and accurasy with their standard deviation and mean values. This was made posible using a helper function (`def print_classification_results(X, y, clf, report, n_simulations, class_names)`)  and `precision_recall_fscore_support` and `accuracy _score` from `sklearn.metrics`
-- Monte Carlo Classification Report with Stratified Shuffle Split (`def monte_carlo_stratified_shuffle_split(X, y, clf, n_splits)`). Now the data are split using Stratified Shuffle Split (`StratifiedShuffleSplit(n_splits=n_splits, test_size=0.2)`) from the `sklearn.model_selection` model selection library.
+n_simulations)`) and prints a report. This split the data randomly with the sklearn library (`train_test_split()`) and then trains and tests the model. Finally, it prints a matrix with the precision, recall, f1 scores and accuracy with their standard deviation and mean values. This was made possible using a helper function (`def print_classification_results(X, y, clf, report, n_simulations, class_names)`)  and `precision_recall_fscore_support` and `accuracy _score` from `sklearn.metrics`
+- Monte Carlo Classification Report with Stratified Shuffle Split (`def monte_carlo_stratified_shuffle_split(X, y, clf, n_splits)`). Now the data is split using Stratified Shuffle Split (`StratifiedShuffleSplit(n_splits=n_splits, test_size=0.2)`) from the `sklearn.model_selection` model selection library.
 
 ### Models and results: 
 - `LogisticRegression(penalty='l2', solver='lbfgs',
