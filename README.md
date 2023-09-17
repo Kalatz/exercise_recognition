@@ -74,13 +74,13 @@ n_simulations)`) and prints a report. This split the data randomly with the skle
 max_iter=10000,multi_class="multinomial" {,
 class_weight=’balanced’})`
 
-with **0.835** accuracy and **0.838** with the shuffle split
+with **0.838** accuracy and **0.835** with the shuffle split, achived on the SMOTE dataset
 
 - `LogisticRegression(penalty='l1', solver='saga',
 max_iter=10000, multi_class="multinomial"{,
 class_weight='balanced'})`
 
-with **0.825** accuracy and **0.829** with the shuffle split
+with **0.825** accuracy and **0.829** with the shuffle split, achived on the SMOTE dataset
 
 - `LogisticRegression(C = 1000.0, penalty = 'l2', solver =
 'lbfgs', max_iter=10000, {class_weight = 'balanced'})` in this model the choise of the hyperparameters was made using Grid Search (`GridSearchCV(LogisticRegression(max_iter=10000), grid,
@@ -88,7 +88,7 @@ n_jobs=-1, cv=3)` with `grid = {"C": np.logspace(-7,3,4), "solver":
 ['lbfgs','saga','liblinear'], 'penalty': ['l1', 'l2',
 'elasticnet', 'none']}`)
 
-with **0.847** accuracy
+achived on the SMOTE dataset
 
 - `LogisticRegression(C=1000, multi_class='multinomial',
 solver='saga', penalty='l1', max_iter=10000)`
@@ -99,3 +99,12 @@ multi_class='multinomial', solver='saga', penalty='l1',
 max_iter=10000))`
 
 accuracy was not great with a mean of **0.782**
+
+- `LogisticRegressionCV(cv=5, max_iter=10000, random_state=0{,
+class_weight='balanced')}`
+
+with **0.864** accuracy, achived on the SMOTE dataset
+
+- `LogisticRegression(penalty='l2', solver='lbfgs', max_iter=10000,multi_class="ovr"{, class_weight='balanced'})`
+
+with **0.821** accuracy, achived on the SMOTE dataset
