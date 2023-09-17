@@ -74,13 +74,13 @@ n_simulations)`) and prints a report. This split the data randomly with the skle
 max_iter=10000,multi_class="multinomial" {,
 class_weight=’balanced’})`
 
-with **0.838** accuracy and **0.835** with the shuffle split, achived on the SMOTE dataset
+with **0.838** accuracy and **0.835** with the shuffle split, achieved on the SMOTE dataset
 
 - `LogisticRegression(penalty='l1', solver='saga',
 max_iter=10000, multi_class="multinomial"{,
 class_weight='balanced'})`
 
-with **0.825** accuracy and **0.829** with the shuffle split, achived on the SMOTE dataset
+with **0.825** accuracy and **0.829** with the shuffle split, achieved on the SMOTE dataset
 
 - `LogisticRegression(C = 1000.0, penalty = 'l2', solver =
 'lbfgs', max_iter=10000, {class_weight = 'balanced'})` in this model the choice of the hyperparameters was made using Grid Search (`GridSearchCV(LogisticRegression(max_iter=10000), grid,
@@ -88,7 +88,7 @@ n_jobs=-1, cv=3)` with `grid = {"C": np.logspace(-7,3,4), "solver":
 ['lbfgs','saga','liblinear'], 'penalty': ['l1', 'l2',
 'elasticnet', 'none']}`)
 
-achived on the SMOTE dataset
+achieved on the SMOTE dataset
 
 - `LogisticRegression(C=1000, multi_class='multinomial',
 solver='saga', penalty='l1', max_iter=10000)`
@@ -103,42 +103,42 @@ accuracy was not great with a mean of **0.782**
 - `LogisticRegressionCV(cv=5, max_iter=10000, random_state=0{,
 class_weight='balanced')}`
 
-with **0.864** accuracy, achived on the SMOTE dataset
+with **0.864** accuracy, achieved on the SMOTE dataset
 
 - `LogisticRegression(penalty='l2', solver='lbfgs', max_iter=10000,multi_class="ovr"{, class_weight='balanced'})`
 
-with **0.821** accuracy, achived on the SMOTE dataset
+with **0.821** accuracy, achieved on the SMOTE dataset
 
 - `OneVsOneClassifier(LinearSVC(max_iter=15000,
 {class_weight='balanced')})`
 
-with **0.859** accuracy, achived on the SMOTE dataset
+with **0.859** accuracy, achieved on the SMOTE dataset
 
 - `OneVsOneClassifier(LogReg_l2{LogReg_bal})`
 
-with **0.854** accuracy, achived on the SMOTE dataset
+with **0.854** accuracy, achieved on the SMOTE dataset
 
 - `LinearDiscriminantAnalysis({priors=uniform_priors})`
 
-with **0.812** accuracy, achived on the SMOTE dataset
+with **0.812** accuracy, achieved on the SMOTE dataset
 
 - `LinearDiscriminantAnalysis(solver='svd', n_components=None,
 shrinkage=None, {priors=uniform_priors})` hyperparameter choice made with `GridSearchCV(lda, param_grid=param_grid, cv=5, n_jobs=-1)` and `param_grid = {'solver': ['svd', 'lsqr', 'eigen'],'shrinkage':
 [None, 'auto', 0, 0.5, 1],'n_components': [None, 1, 2]}`
 
-with **0.809** accuracy, achived on the SMOTE dataset
+with **0.809** accuracy, achieved on the SMOTE dataset
 
 - `QuadraticDiscriminantAnalysis({priors=uniform_priors})`
 
-with **0.789** accuracy, achived on 33 LassoCV selected features
+with **0.789** accuracy, achieved on 33 LassoCV selected features
 
 - `SVC({class_weight='balanced'})`
 
-with **0.814** accuracy, achived on the SMOTE dataset
+with **0.814** accuracy, achieved on the SMOTE dataset
 
 - `SVC(kernel = 'linear'{, class_weight='balanced'})`
 
-with **0.858** accuracy, achived on the SMOTE dataset
+with **0.858** accuracy, achieved on the SMOTE dataset
 
 -`SVC(C = 1000, class_weight = None, gamma = 0.01, kernel =
 'rbf')` hyperparameter choice made with `GridSearchCV(estimator=svm, param_grid=param_grid, cv=5,
@@ -146,12 +146,12 @@ n_jobs=-1)` with `param_grid = {'C': np.logspace(-5, 5, 11),'kernel':['linear',
 'rbf', 'poly', 'sigmoid'],degree': [2, 3, 4],'gamma':
 np.logspace(-5, 5, 11),'class_weight': [None, 'balanced']}`
 
-with **0.922** accuracy and **0.0.930** with the shuffle split, achived on the SMOTE dataset
+with **0.922** accuracy and **0.0.930** with the shuffle split, achieved on the SMOTE dataset
 
 - `DecisionTreeClassifier(criterion='gini'{,
 class_weight='balanced'})`
 
-with **0.792** accuracy, achived on the SMOTE dataset
+with **0.792** accuracy, achieved on the SMOTE dataset
 
 - `DecisionTreeClassifier(class_weight=None,
 criterion='entropy', max_depth=None, min_samples_leaf=2,
@@ -160,13 +160,13 @@ min_samples_split=5)` hyperparameter choice made with `GridSearchCV(tree, param_
 'min_samples_leaf': [1, 2, 4], 'class_weight': ['balanced',
 None]}`
 
-with **0.793** accuracy, achived on the SMOTE dataset
+with **0.793** accuracy, achieved on the SMOTE dataset
 
 - `DecisionTreeClassifier(class_weight=None,
 criterion='entropy', max_depth=10, min_samples_leaf=1,
 min_samples_split=2)`
 
-with **0.793** accuracy, achived on the SMOTE dataset
+with **0.793** accuracy, achieved on the SMOTE dataset
 
 ### Tree plot:
 ![image](https://github.com/Kalatz/exercise_recognition/assets/113215517/a752625e-bc06-47e4-833d-ac7ec3da59d1)
