@@ -169,7 +169,7 @@ min_samples_split=2)`
 with **0.793** accuracy, achieved on the SMOTE dataset
 
 ### Tree plot:
-![image](https://github.com/Kalatz/exercise_recognition/assets/113215517/a752625e-bc06-47e4-833d-ac7ec3da59d1)
+![alt-text](https://github.com/Kalatz/exercise_recognition/blob/main/Plots/tree.png)
 
 ## Conclusions
 The support vector machine model with rbf(`SVC(C = 1000, class_weight = None, gamma = 0.01, kernel = 'rbf')`) in which the hyper-parameters were selected with GridSearchCV. Trained with Train-test split  with the Stratified Shuffle Split method. More specifically, the artificial data set features from the SMOTE technique had the highest accuracy with the above model with **93%**.
